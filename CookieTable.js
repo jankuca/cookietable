@@ -1,3 +1,10 @@
+/**
+ * CookieTable
+ * Library for storing data in cookies and accessing them using SQL-like queries
+ * --
+ * @author Jan Kuča <jan@jankuca.com>, http://jankuca.com
+ */
+
 function CookieTable(/* name, [expires,] [creationCallback] */)
 {
 	this.name = arguments[0];
